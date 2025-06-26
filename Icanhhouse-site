@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>icanhhouse.org</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Employees Hold the Power to Change Housing.</h1>
+    <p>icanhhouse.org empowers workers from Starbucks, Target, JetBlue, Victoria’s Secret & more to shape their communities.</p>
+  </header>
+
+  <section id="newsletter">
+    <h2>Join the Movement</h2>
+    <p>Employees already control property value—now it’s time we own that truth.</p>
+    <form action="#" method="POST">
+      <input type="email" name="email" placeholder="Your email" required />
+      <button type="submit">🔔 Subscribe Now</button>
+    </form>
+  </section>
+
+  <section id="counter">
+    <h2>How Often Is Our Domain Used?</h2>
+    <p><span id="usage-counter">Loading…</span> mentions so far</p>
+  </section>
+
+  <footer>
+    <p>icanhhouse.org — We don’t sell your data; we empower it.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
